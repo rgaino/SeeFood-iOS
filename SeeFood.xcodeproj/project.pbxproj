@@ -14,6 +14,7 @@
 		4379976120B4A67A003CEFA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4379975F20B4A67A003CEFA2 /* LaunchScreen.storyboard */; };
 		4379976C20B4A67A003CEFA2 /* SeeFoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4379976B20B4A67A003CEFA2 /* SeeFoodTests.swift */; };
 		4379977720B4A67A003CEFA2 /* SeeFoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4379977620B4A67A003CEFA2 /* SeeFoodUITests.swift */; };
+		4379978520B4A702003CEFA2 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4379978420B4A702003CEFA2 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		4379977220B4A67A003CEFA2 /* SeeFoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeeFoodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4379977620B4A67A003CEFA2 /* SeeFoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeFoodUITests.swift; sourceTree = "<group>"; };
 		4379977820B4A67A003CEFA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4379978420B4A702003CEFA2 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				4379975D20B4A67A003CEFA2 /* Assets.xcassets */,
 				4379975F20B4A67A003CEFA2 /* LaunchScreen.storyboard */,
 				4379976220B4A67A003CEFA2 /* Info.plist */,
+				4379978420B4A702003CEFA2 /* Inceptionv3.mlmodel */,
 			);
 			path = SeeFood;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4379975920B4A678003CEFA2 /* ViewController.swift in Sources */,
+				4379978520B4A702003CEFA2 /* Inceptionv3.mlmodel in Sources */,
 				4379975720B4A678003CEFA2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +435,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RB48G5FQ88;
 				INFOPLIST_FILE = SeeFood/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,6 +453,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RB48G5FQ88;
 				INFOPLIST_FILE = SeeFood/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
